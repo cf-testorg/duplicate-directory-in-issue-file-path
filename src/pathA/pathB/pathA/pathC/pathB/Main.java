@@ -1,11 +1,11 @@
 package pathA.pathB.pathA.pathC.pathB;
 
-public class Test {
+public class Main {
 
-    public static void test(String input) {
+    public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        switch(input) {
+        switch(args[0]) {
             case "0":
                 System.out.println('0');
             case "1":
